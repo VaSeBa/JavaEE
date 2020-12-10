@@ -8,6 +8,10 @@
         <servlet-class>TestServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>LibraryServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>SetCookiesServlet</servlet-name>
         <servlet-class>SetCookiesServlet</servlet-class>
     </servlet>
@@ -34,5 +38,9 @@
     <servlet-mapping>
         <servlet-name>DeleteCookiesServlet</servlet-name>
         <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/library</url-pattern>
     </servlet-mapping>
 </web-app>
